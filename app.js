@@ -34,7 +34,7 @@ app.post("/",function(req, res){
 
   var jasonData = JSON.stringify(data);
 
-  const url = 'https://us10.api.mailchimp.com/3.0/5d1e309d99';
+  const url = 'https://us10.api.mailchimp.com/#mailchimp_apikey';
 
   const options={
     method:"POST",
@@ -78,14 +78,3 @@ app.listen(3000, function(){
 
 
 
-// --data '{"name":"Freddie'\''s Favorite Hats","contact":{"company":"Mailchimp","address1":"675 Ponce De Leon Ave NE","address2":"Suite 5000","city":"Atlanta","state":"GA","zip":"30308","country":"US","phone":""},"permission_reminder":"You'\''re receiving this email because you signed up for updates about Freddie'\''s newest hats.","campaign_defaults":{"from_name":"Freddie","from_email":"freddie@freddiehats.com","subject":"","language":"en"},"email_type_option":true}' \
-
-
-// apikey
-// 36f4a381fb95006ca81ff8f17d029d3c-us10
-
-// List id
-// 5d1e309d99
-
-// list id
-// 5d1e309d99
